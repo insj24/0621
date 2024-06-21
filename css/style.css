@@ -1,0 +1,43 @@
+* {
+    margin: 0 auto;
+    text-decoration: none;
+    list-style: none;
+}
+.wrap {
+}
+.container1 {
+    display: flex;
+    width: 1920px;
+    height: 80px;
+    border-bottom: 5px white solid;
+    background: black;
+}
+.container1 .logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.container1 .logo img {
+    width: 179px;
+    height: 28px;
+}
+
+.vid img {
+    position: absolute;
+    z-index: 9999;
+}
+.vid video {
+    position: relative;
+    /* display: flex; */
+}
+.util {
+    display: flex;
+}
+.util ul {
+    align-items: center;
+}
+.util ul li {
+    padding: 20px;
+}
+.util ul li:last-child {
+}
